@@ -1,4 +1,5 @@
 
+# HIGH LEVEL FEATURES
 1. Conversations between user and AI
   
   - User Specific Data
@@ -24,3 +25,19 @@
     - Applications
       - 3rd party applications/accounts (ej: social media accounts)
       - Read+Write access to apps
+
+# DETAILED FEATURES
+- AI Conversations Feature:
+  1. Wake Up Layer
+    * Personalized Name for the AI
+  2. Speech Processing (SP) Layer
+    * STT (Speech To Text)
+    * TTS (Text To Speech)
+    * Multi language support
+  3. Core AI  Layer
+    * Intent Classification
+      - Prompts
+        * LLM
+        * RAG (Retrieval Augmented Generation)
+      - Commands
+
