@@ -1,6 +1,6 @@
 # MINA: My Intelligent Neural Agent
 
-MINA is a native, privacy-first, locally powered AI agent. Built with modularity and intelligence at its core, MINA integrates voice interaction, neural network-driven decision-making, and seamless system automation—all while keeping your data secure and local.
+MINA is an open source, native, privacy-first, locally powered AI agent. Built with modularity and intelligence at its core, MINA integrates voice interaction, neural network-driven decision-making, and seamless system automation—all while keeping your data secure and local.
 
 ## Features
 - **Voice Interaction**: Wake word detection, speech-to-text, and text-to-speech.  
