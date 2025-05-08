@@ -1,0 +1,36 @@
+{
+  "name": "mina",
+  "version": "1.0.0",
+  "description": "MINA is an open source, native, privacy-first, locally powered AI agent. Built with modularity and intelligence at its core, MINA integrates voice interaction, neural network-driven decision-making, and seamless system automation—all while keeping your data secure and local.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && chmod 755 build/index.js",
+    "run": "node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelastua/mina.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelastua/mina/issues"
+  },
+  "homepage": "https://github.com/samuelastua/mina#readme",
+  "devDependencies": {
+    "@langchain/community": "^0.3.41",
+    "@langchain/core": "^0.3.47",
+    "@langchain/langgraph": "^0.2.66",
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "@types/node": "^22.15.15",
+    "langchain": "^0.3.24",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "node-llama-cpp": "^3.7.0"
+  }
+}
